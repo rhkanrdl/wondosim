@@ -162,7 +162,8 @@ $(document).ready(function () {
         $('#header').removeClass();
         $('div#content').removeClass("sub");
         $('nav#menu div.depth a').removeClass("on");
-
+        $(".depth2-outline").removeClass("on");
+        $(".depth3-outline").removeClass("on");
         $("div#content div.pop").removeClass("open");
     }
 
