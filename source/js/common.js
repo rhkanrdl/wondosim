@@ -94,6 +94,7 @@ $(document).ready(function () {
         var slideno = $(this).data('slide');
         $depth2Slick1.slick('slickGoTo', slideno - 1);
         $('nav#menu div.depth3-outline.category0302 .depth a').removeClass("on");
+        $('#content').addClass("sub");
         $(this).addClass("on");
 
         
