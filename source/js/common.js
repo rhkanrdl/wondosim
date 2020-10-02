@@ -110,7 +110,7 @@ $(document).ready(function () {
 
 
     $('nav#menu div.depth1 a[data="onePage"]').on("click", function () {
-        var category = $(this).attr("class")
+        var category = $(this).attr("id")
         $('nav#menu').removeClass();
         $('nav#menu').addClass(category);
         $('nav#menu').addClass("on");
