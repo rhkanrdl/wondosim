@@ -804,6 +804,7 @@ body div#content.main div.navigation strong {
 
 body div#content.main div.pop {
   position: absolute;
+  z-index: 999;
   left: 50%;
   top: 8vw;
   width: 70vw;
@@ -819,7 +820,7 @@ body div#content.main div.pop {
 
 body div#content.main div.pop.open {
   opacity: 1;
-  height: 40VW;
+  height: 39.7VW;
 }
 
 body div#content.main button.close {

@@ -266,6 +266,7 @@ body {
             }
             div.pop {
                 position:absolute;
+                z-index:999;
                 left:50%;
                 top:8vw;
                 width:70vw;
@@ -279,7 +280,7 @@ body {
 
                 &.open {
                     opacity:1;
-                    height:40VW;
+                    height:39.7VW;
                 }
             }
 
