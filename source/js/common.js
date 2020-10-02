@@ -140,14 +140,18 @@ $(document).ready(function () {
     });
 
     $('nav#menu div.depth1 a[data="multiPage"]').on("click", function () {
-        var category = $(this).attr("class")
+        var category = $(this).attr("id")
         $('nav#menu').removeClass();
         $('nav#menu').addClass(category);
         $('nav#menu').addClass("on");
+        $('#header').addClass("sub");
+        $('#content').addClass("sub");
+        $(".depth2-outline").removeClass("on");
+        $(".depth3-outline").removeClass("on");
+
         $('nav#menu div.depth1 a').removeClass("on");
-        $('#content').removeClass("sub");
         $(this).addClass("on");
-        $("div#content div.pop").removeClass("open");
+
 
         if (category == "category03") {
             $(".depth2-outline").removeClass("on");
