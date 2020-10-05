@@ -185,5 +185,12 @@ $(document).ready(function () {
 });
 
 
+$(window).on("resize")
+
+
+$( window ).resize( function() {
+    $depth1Slick.slick('refresh');
+
+});
 
 });
