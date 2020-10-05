@@ -274,13 +274,52 @@ body {
                 background:#fff;
                 margin-left:-35VW;
                 opacity:0;
-                overflow-x:hidden;
-                overflow-y:scroll;
                 @include ani(0.6s);
 
                 &.open {
                     opacity:1;
                     height:39.7VW;
+                }
+
+                &.content-category05 {
+                    background:url("../images/list-bg.svg") center / cover;
+                }
+
+                h2 {
+                    font-size:2.2vw;
+                    margin:0;
+                    padding:2vw 2vw 1.4vw;
+                    font-weight:800;
+                }
+
+                ul.book-list {
+                    list-style:none;
+                    margin:0;
+                    padding:1vw;
+                    font-size:0;
+
+                    li {
+                        margin:0 1vw;
+                        display:inline-block;
+                        width:calc((100% - 12vw) / 6);
+
+                        p {
+                            height:13vw;
+                            margin:0;
+                            @include drop-shadow($x:0,$y: 0.6vw, $blur: 0.4vw, $spread: 0, $alpha: 0.25);
+
+                            img {
+                                display:none;
+                            }
+                        }
+                        h3 {
+                            text-align:center;
+                            font-size:1.2vw;
+                            height:3vw;
+                            overflow:hidden;
+                            margin:0.8vw 0 1vw;
+                        }
+                    }
                 }
             }
 

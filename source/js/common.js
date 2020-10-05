@@ -2,9 +2,14 @@ $(document).ready(function () {
 
     $('body').css(
         "background",
-        "url('" + $(this).find("img#background").attr("src") +
-                "') no-repeat top / cover"
+        "url('"+ $(this).find("img#background").attr("src") +"') no-repeat top / cover"
     );
+
+
+    $('ul.book-list .image').each(function() {
+        $(this).css("background", "url('" + $(this).find("img").attr("src") + "') no-repeat center / cover");
+    });
+
 
     $('.news-ticker').marquee({
         allowCss3Support: true,
@@ -184,8 +189,12 @@ $(document).ready(function () {
         $('nav#menu div.depth1 a').removeClass("on");
 });
 
+$(".pop").mCustomScrollbar({
+    theme:"inset-dark",
+    scrollButtons: { enable: true }
+});
 
-$(window).on("resize")
+
 
 
 $( window ).resize( function() {
