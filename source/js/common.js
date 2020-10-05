@@ -111,9 +111,6 @@ $(document).ready(function () {
 
 
 
-
-
-
     $('nav#menu div.depth1 a[data="onePage"]').on("click", function () {
         var category = $(this).attr("id")
         $('nav#menu').removeClass();
@@ -149,8 +146,8 @@ $(document).ready(function () {
         $('nav#menu').removeClass();
         $('nav#menu').addClass(category);
         $('nav#menu').addClass("on");
-        // $('#header').addClass("sub");
-        // $('#content').addClass("sub");
+        $('#header').addClass("sub");
+        $('#content').addClass("sub");
         $(".depth2-outline").removeClass("on");
         $(".depth3-outline").removeClass("on");
 
