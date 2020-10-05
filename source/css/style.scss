@@ -266,7 +266,7 @@ body {
             }
             div.pop {
                 position:absolute;
-                z-index:999;
+                z-index:600;
                 left:50%;
                 top:8vw;
                 width:70vw;
@@ -373,6 +373,7 @@ body {
         bottom:0;
         text-align:center;
         font-size:0;
+        z-index:800;
 
         &::before {
             content:"";

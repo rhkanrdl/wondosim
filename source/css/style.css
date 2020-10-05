@@ -804,7 +804,7 @@ body div#content.main div.navigation strong {
 
 body div#content.main div.pop {
   position: absolute;
-  z-index: 999;
+  z-index: 600;
   left: 50%;
   top: 8vw;
   width: 70vw;
@@ -906,6 +906,7 @@ body nav#menu {
   bottom: 0;
   text-align: center;
   font-size: 0;
+  z-index: 800;
 }
 
 body nav#menu::before {
