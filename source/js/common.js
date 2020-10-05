@@ -147,7 +147,7 @@ $(document).ready(function () {
         $('nav#menu').addClass(category);
         $('nav#menu').addClass("on");
         $('#header').addClass("sub");
-        $('#content').addClass("sub");
+        // $('#content').addClass("sub");
         $(".depth2-outline").removeClass("on");
         $(".depth3-outline").removeClass("on");
 
