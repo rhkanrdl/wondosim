@@ -286,6 +286,15 @@ body {
                     background:url("../images/list-bg.svg") center / cover;
                 }
 
+                &.content-category06 {
+                    left:0;
+                    right:0;
+                    margin:0;
+                    width:auto;
+                    height:auto;
+                    bottom:0;
+                }
+
                 h2 {
                     font-size:2.2vw;
                     margin:0;
@@ -407,11 +416,11 @@ body {
             
 
             &.depth1-prev {
-                margin-left:-36vw;
+                margin-left:-40vw;
             }
 
             &.depth1-next {
-                margin-left:31vw;
+                margin-left:35vw;
             }
 
             &.slick-disabled {
@@ -422,7 +431,7 @@ body {
         &>div.depth1 {
             display:inline-block;
             overflow:hidden;
-            width:59vw;
+            width:71vw;
 
 
             div.item {
@@ -462,6 +471,10 @@ body {
     
                     &.category05 {
                         background:rgba(127,50,135,1);
+                    }
+    
+                    &.category06 {
+                        background:rgba(135,93,50,1);
                     }
 
                     i {
@@ -832,6 +845,18 @@ body {
                                 background:rgba(127,50,135,1);
                             }
                         }
+        
+                        &.category06 {
+                            background:rgba(135,93,50,0);
+                            
+                            &.on {
+                                background:rgba(135,93,50,1);
+                            }
+                        }
+
+
+
+
 
                         span {
                             display:inline-block;

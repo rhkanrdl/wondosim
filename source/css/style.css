@@ -826,6 +826,15 @@ body div#content.main div.pop.content-category05 {
   background: url("../images/list-bg.svg") center/cover;
 }
 
+body div#content.main div.pop.content-category06 {
+  left: 0;
+  right: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  bottom: 0;
+}
+
 body div#content.main div.pop h2 {
   font-size: 2.2vw;
   margin: 0;
@@ -943,11 +952,11 @@ body nav#menu button.btn1 {
 }
 
 body nav#menu button.btn1.depth1-prev {
-  margin-left: -36vw;
+  margin-left: -40vw;
 }
 
 body nav#menu button.btn1.depth1-next {
-  margin-left: 31vw;
+  margin-left: 35vw;
 }
 
 body nav#menu button.btn1.slick-disabled {
@@ -957,7 +966,7 @@ body nav#menu button.btn1.slick-disabled {
 body nav#menu > div.depth1 {
   display: inline-block;
   overflow: hidden;
-  width: 59vw;
+  width: 71vw;
 }
 
 body nav#menu > div.depth1 div.item {
@@ -1001,6 +1010,10 @@ body nav#menu > div.depth1 div.item a.category04 {
 
 body nav#menu > div.depth1 div.item a.category05 {
   background: #7f3287;
+}
+
+body nav#menu > div.depth1 div.item a.category06 {
+  background: #875d32;
 }
 
 body nav#menu > div.depth1 div.item a i {
@@ -1332,6 +1345,14 @@ body nav#menu.on div.depth1 div.item a.category05 {
 
 body nav#menu.on div.depth1 div.item a.category05.on {
   background: #7f3287;
+}
+
+body nav#menu.on div.depth1 div.item a.category06 {
+  background: rgba(135, 93, 50, 0);
+}
+
+body nav#menu.on div.depth1 div.item a.category06.on {
+  background: #875d32;
 }
 
 body nav#menu.on div.depth1 div.item a span {

@@ -139,6 +139,11 @@ $(document).ready(function () {
             $("div#content div.content-category05").addClass("open");
         }
 
+        if (category == "category06") {
+            $("div#content div.pop").removeClass("open");
+            $("div#content div.content-category06").addClass("open");
+        }
+
     });
 
     $('nav#menu div.depth1 a[data="multiPage"]').on("click", function () {
