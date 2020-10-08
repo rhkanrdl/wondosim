@@ -877,17 +877,17 @@ body div#content.main div.pop ul.book-list li h3 {
 body div#content.main button.close {
   display: none;
   position: absolute;
-  left: 50%;
+  z-index: 999;
+  right: 0;
   margin-left: 40VW;
   top: 5VW;
-  width: 8VW;
+  width: 10VW;
   font-size: 1.6vw;
   font-weight: bold;
   color: #fff;
   background: #000;
   border: none;
   padding: 1vw 2vw 1vw 1vw;
-  border-radius: 0 20px 20px 0;
 }
 
 body div#content.main button.close i {
