@@ -267,6 +267,7 @@ body {
             }
             div.pop {
                 position:absolute;
+                overflow:hidden;
                 z-index:600;
                 left:50%;
                 top:5vw;
@@ -280,6 +281,7 @@ body {
                 &.open {
                     opacity:1;
                     height:38VW;
+                    z-index:700;
                 }
 
                 &.content-category05 {

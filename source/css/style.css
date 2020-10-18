@@ -805,6 +805,7 @@ body div#content.main div.navigation strong {
 
 body div#content.main div.pop {
   position: absolute;
+  overflow: hidden;
   z-index: 600;
   left: 50%;
   top: 5vw;
@@ -820,6 +821,7 @@ body div#content.main div.pop {
 body div#content.main div.pop.open {
   opacity: 1;
   height: 38VW;
+  z-index: 700;
 }
 
 body div#content.main div.pop.content-category05 {
