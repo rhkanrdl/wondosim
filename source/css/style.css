@@ -1304,6 +1304,14 @@ body nav#menu.on > button {
   bottom: -0.4vw;
 }
 
+body nav#menu.on div.depth1 {
+  height: 5vw;
+}
+
+body nav#menu.on div.depth1 div.item {
+  height: 5vw;
+}
+
 body nav#menu.on div.depth1 div.item a {
   font-size: 1vw;
   font-weight: normal;
