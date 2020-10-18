@@ -191,10 +191,10 @@ $(document).ready(function () {
         $('nav#menu div.depth1 a').removeClass("on");
 });
 
-$(".pop").mCustomScrollbar({
-    theme:"inset-dark",
-    scrollButtons: { enable: true }
-});
+// $(".pop").mCustomScrollbar({
+//     theme:"inset-dark",
+//     scrollButtons: { enable: true }
+// });
 
 
 

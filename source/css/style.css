@@ -822,6 +822,7 @@ body div#content.main div.pop.open {
   opacity: 1;
   height: 38VW;
   z-index: 700;
+  overflow-y: scroll;
 }
 
 body div#content.main div.pop.content-category05 {
