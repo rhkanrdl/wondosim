@@ -387,6 +387,20 @@ body {
         text-align:center;
         font-size:0;
         z-index:800;
+        height:13.4vw;
+        @include ani(0.6s);
+
+        div {
+            
+            height:13.4vw;
+            @include ani(0.6s);
+
+            &.slick-list {
+                height:13.4vw !important;
+
+            }
+        }
+        
 
         &::before {
             content:"";
@@ -432,9 +446,14 @@ body {
         }
 
         &>div.depth1 {
+            position:absolute;
+            left:50%;
+            bottom:0;
+            margin-left:-33vw;
             display:inline-block;
             overflow:hidden;
             width:71vw;
+            
 
 
             div.item {
@@ -442,18 +461,16 @@ body {
                 display:inline-block;
                 width:11vw !important;
                 height:13.4vw;
-                margin-right:1vw;
-                @include ani(0.6s);
 
                 a {
                     position:absolute;
                     left:0;
                     right:0;
-                    height:13.4vw;
                     bottom:0;
                     display:block;
                     font-size:1.6vw;
                     color:#fff;
+                    height:13.4vw;
                     @include ani(0.6s);
 
                     &.category01 {
@@ -792,10 +809,21 @@ body {
 
 
         &.on {
+            height:5vw;
 
             &::before {
                 bottom:-3vw;
-            }    
+            }
+
+            div {
+                height:5vw;
+                
+    
+                &.slick-list {
+                    height:5vw !important;
+    
+                }
+            }
 
             &>button {
                 bottom:-0.4vw;
@@ -803,7 +831,7 @@ body {
 
             div.depth1 {
                 height:5vw;
-                
+
                 div.item {
                     
                     height:5vw;

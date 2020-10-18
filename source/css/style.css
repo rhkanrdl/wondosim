@@ -920,6 +920,19 @@ body nav#menu {
   text-align: center;
   font-size: 0;
   z-index: 800;
+  height: 13.4vw;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+body nav#menu div {
+  height: 13.4vw;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+body nav#menu div.slick-list {
+  height: 13.4vw !important;
 }
 
 body nav#menu::before {
@@ -967,6 +980,10 @@ body nav#menu button.btn1.slick-disabled {
 }
 
 body nav#menu > div.depth1 {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -33vw;
   display: inline-block;
   overflow: hidden;
   width: 71vw;
@@ -977,20 +994,17 @@ body nav#menu > div.depth1 div.item {
   display: inline-block;
   width: 11vw !important;
   height: 13.4vw;
-  margin-right: 1vw;
-  -webkit-transition: all 0.6s ease;
-  transition: all 0.6s ease;
 }
 
 body nav#menu > div.depth1 div.item a {
   position: absolute;
   left: 0;
   right: 0;
-  height: 13.4vw;
   bottom: 0;
   display: block;
   font-size: 1.6vw;
   color: #fff;
+  height: 13.4vw;
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
@@ -1296,8 +1310,20 @@ body nav#menu div.depth3-outline.category0302 div.depth::before {
   left: 29.5vw;
 }
 
+body nav#menu.on {
+  height: 5vw;
+}
+
 body nav#menu.on::before {
   bottom: -3vw;
+}
+
+body nav#menu.on div {
+  height: 5vw;
+}
+
+body nav#menu.on div.slick-list {
+  height: 5vw !important;
 }
 
 body nav#menu.on > button {
