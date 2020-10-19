@@ -1323,11 +1323,11 @@ body nav#menu.on::before {
   bottom: -3vw;
 }
 
-body nav#menu.on div {
+body nav#menu.on div.depth1 div {
   height: 5vw;
 }
 
-body nav#menu.on div.slick-list {
+body nav#menu.on div.depth1 div.slick-list {
   height: 5vw !important;
 }
 
