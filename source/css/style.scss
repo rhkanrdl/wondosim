@@ -228,7 +228,7 @@ body {
             top:0;
             line-height:4vw;
             margin:0;
-            width:calc(100vw - 30vw);
+            width:calc(100vw - 33vw);
             font-size:1.6vw;
 
         }
@@ -274,7 +274,7 @@ body {
                 width:76vw;
                 height:0;
                 background:#fff;
-                margin-left:-36VW;
+                margin-left:-38VW;
                 opacity:0;
                 @include ani(0.6s);
 
@@ -345,20 +345,25 @@ body {
                 z-index:999;
                 right:0;
                 margin-left:40VW;
-                top:5VW;
-                width:10VW;
+                top:37.2VW;
+                width:12VW;
                 font-size:1.6vw;
                 font-weight:bold;
                 color:#fff;
                 background:#000;
                 border:none;
-                padding:1vw 2vw 1vw 1vw;
+                padding:2vw;
 
                 i {
                     font-size:2vw;
                     position:absolute;
-                    top:0.8vw;
+                    top:1.8vw;
                 }
+            }
+
+            div.content-category06.open + button.close {
+                top:auto;
+                bottom:5vw;
             }
 
             &.sub {
@@ -826,7 +831,8 @@ body {
             }
 
             &>button {
-                bottom:-0.4vw;
+                bottom:0.4vw;
+                font-size:3vw;
             }
 
             div.depth1 {
