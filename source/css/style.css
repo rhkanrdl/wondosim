@@ -634,6 +634,66 @@ a {
   outline: none;
 }
 
+div.web-map-pop {
+  position: relative;
+  width: 30vw;
+  background: #fff;
+  border: 1.2vw solid #875d32;
+  border-radius: 2vw;
+}
+
+div.web-map-pop::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3.6vw;
+  left: 50%;
+  margin-left: -0.6vw;
+  width: 0;
+  height: 0;
+  border: 1.2vw solid transparent;
+  border-top-color: #875d32;
+}
+
+div.web-map-pop > h2 {
+  position: relative;
+  font-size: 2.2vw;
+  margin: 0;
+  padding: 1.6vw;
+  font-weight: 800;
+}
+
+div.web-map-pop > h2 > span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 1;
+}
+
+div.web-map-pop > h2 > span > img {
+  width: 7vw;
+}
+
+div.web-map-pop > h2 > span > u {
+  font-size: 1.2vw;
+  display: block;
+  text-decoration: none;
+}
+
+div.web-map-pop > p.text {
+  font-size: 1.4vw;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0 7.4vw 1.6vw 1.6vw;
+}
+
+div.web-map-pop > div.pdf {
+  min-height: 16vw;
+  background: #ccc;
+  margin: 1.6vw;
+}
+
 /*font*/
 html {
   min-width: 320px;
@@ -877,31 +937,53 @@ body div#content.main div.pop ul.book-list li h3 {
   margin: 0.8vw 0 1vw;
 }
 
+body div#content.main div.info {
+  display: none;
+  text-align: center;
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  margin-left: 40VW;
+  top: 5VW;
+  width: 12VW;
+  height: 32vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  padding: 10vw 1vw;
+}
+
+body div#content.main div.info i {
+  display: block;
+  font-size: 5vw;
+}
+
+body div#content.main div.info span {
+  display: block;
+}
+
 body div#content.main button.close {
   display: none;
   position: absolute;
   z-index: 999;
   right: 0;
   margin-left: 40VW;
-  top: 37.2VW;
+  top: 37VW;
   width: 12VW;
   font-size: 1.6vw;
   font-weight: bold;
   color: #fff;
   background: #000;
   border: none;
-  padding: 2vw;
+  line-height: 6vw;
 }
 
 body div#content.main button.close i {
   font-size: 2vw;
   position: absolute;
-  top: 1.8vw;
-}
-
-body div#content.main div.content-category06.open + button.close {
-  top: auto;
-  bottom: 5vw;
+  top: 2vw;
 }
 
 body div#content.main.sub::before {
@@ -915,6 +997,27 @@ body div#content.main.sub div.navigation {
 
 body div#content.main.sub button.close {
   display: block;
+}
+
+body div#content.main.sub div.info.scroll {
+  display: block;
+}
+
+body div#content.main.sub div.content-category06.open + button.close + div.info.zoom {
+  display: block;
+  top: auto;
+  bottom: 11vw;
+  height: auto;
+  padding: 20px 10px;
+}
+
+body div#content.main.sub div.content-category06.open + button.close + div.info.zoom + div.info.scroll {
+  display: none;
+}
+
+body div#content.main div.content-category06.open + button.close {
+  top: auto;
+  bottom: 5vw;
 }
 
 body nav#menu {
