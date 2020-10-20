@@ -1327,10 +1327,6 @@ body nav#menu.on div.depth1 div {
   height: 5vw;
 }
 
-body nav#menu.on div.depth1 div.slick-list {
-  height: 5vw !important;
-}
-
 body nav#menu.on > button {
   bottom: 0.4vw;
   font-size: 3vw;
@@ -1411,5 +1407,13 @@ body nav#menu.on div.depth1 div.item a i {
 
 body nav#menu.on div.depth1 div.item a.on i {
   opacity: 1;
+}
+
+body nav#menu.on div.depth2-outline {
+  overflow: hidden;
+}
+
+body nav#menu.on div.depth3-outline {
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

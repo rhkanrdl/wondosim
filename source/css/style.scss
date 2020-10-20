@@ -824,10 +824,6 @@ body {
                 height:5vw;
                 
     
-                &.slick-list {
-                    height:5vw !important;
-    
-                }
             }
 
             &>button {
@@ -917,6 +913,17 @@ body {
                         }
                     }
                 }
+            }
+
+            
+
+            div.depth2-outline {
+                overflow:hidden;
+            }
+            
+
+            div.depth3-outline {
+                overflow:hidden;
             }
         }
     }
