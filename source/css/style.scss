@@ -416,6 +416,16 @@ body {
                 background:rgba(0,0,0,0.4);
                 border:none;
                 padding:10vw 1vw;
+
+
+
+                &.info.zoom {
+                    top:auto;
+                    bottom:11vw;
+                    height:auto;
+                    padding:20px 10px;
+                }
+
                 i {
                     display:block;
                     font-size:5vw;
@@ -423,6 +433,14 @@ body {
                 span {
                     display:block;
                 }
+
+                &.open {
+                    display:block;
+                }
+
+
+
+                
             }
 
 
@@ -460,20 +478,6 @@ body {
                 }
                 button.close {
                     display:block;
-                }
-                div.info.scroll {
-                    display:block;
-                }
-
-                div.content-category06.open + button.close + div.info.zoom {
-                    display:block;
-                    top:auto;
-                    bottom:11vw;
-                    height:auto;
-                    padding:20px 10px;
-                }
-                div.content-category06.open + button.close + div.info.zoom + div.info.scroll {
-                    display:none;
                 }
                 
             }

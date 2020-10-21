@@ -120,6 +120,7 @@ $(document).ready(function () {
         $('#content').addClass("sub");
         $(".depth2-outline").removeClass("on");
         $(".depth3-outline").removeClass("on");
+        $("div#content div.info.scroll").removeClass("open");
 
         $('nav#menu div.depth1 a').removeClass("on");
         $(this).addClass("on");
@@ -127,21 +128,25 @@ $(document).ready(function () {
         if (category == "category01") {
             $("div#content div.pop").removeClass("open");
             $("div#content div.content-category01").addClass("open");
+            $("div#content div.info.scroll-x").addClass("open");
         }
 
         if (category == "category02") {
             $("div#content div.pop").removeClass("open");
             $("div#content div.content-category02").addClass("open");
+            $("div#content div.info.scroll-x").addClass("open");
         }
 
         if (category == "category05") {
             $("div#content div.pop").removeClass("open");
             $("div#content div.content-category05").addClass("open");
+            $("div#content div.info.scroll-x").addClass("open");
         }
 
         if (category == "category06") {
             $("div#content div.pop").removeClass("open");
             $("div#content div.content-category06").addClass("open");
+            $("div#content div.info.zoom").addClass("open");
         }
 
     });
@@ -155,6 +160,8 @@ $(document).ready(function () {
         // $('#content').addClass("sub");
         $(".depth2-outline").removeClass("on");
         $(".depth3-outline").removeClass("on");
+        
+        $("div#content div.info.scroll-x").removeClass("open");
 
         $('nav#menu div.depth1 a').removeClass("on");
         $(this).addClass("on");
@@ -163,6 +170,7 @@ $(document).ready(function () {
         if (category == "category03") {
             $(".depth2-outline").removeClass("on");
             $(".depth2-outline.category03").addClass("on");
+            $("div#content div.info.scroll-y").addClass("open");
         }
 
     });
@@ -176,6 +184,7 @@ $(document).ready(function () {
         $(".depth2-outline").removeClass("on");
         $(".depth3-outline").removeClass("on");
         $("div#content div.pop").removeClass("open");
+        $("div#content div.info.scroll").removeClass("open");
     }
 
     $('div#content button.close').on("click", function () {

@@ -955,12 +955,23 @@ body div#content.main div.info {
   padding: 10vw 1vw;
 }
 
+body div#content.main div.info.info.zoom {
+  top: auto;
+  bottom: 11vw;
+  height: auto;
+  padding: 20px 10px;
+}
+
 body div#content.main div.info i {
   display: block;
   font-size: 5vw;
 }
 
 body div#content.main div.info span {
+  display: block;
+}
+
+body div#content.main div.info.open {
   display: block;
 }
 
@@ -997,22 +1008,6 @@ body div#content.main.sub div.navigation {
 
 body div#content.main.sub button.close {
   display: block;
-}
-
-body div#content.main.sub div.info.scroll {
-  display: block;
-}
-
-body div#content.main.sub div.content-category06.open + button.close + div.info.zoom {
-  display: block;
-  top: auto;
-  bottom: 11vw;
-  height: auto;
-  padding: 20px 10px;
-}
-
-body div#content.main.sub div.content-category06.open + button.close + div.info.zoom + div.info.scroll {
-  display: none;
 }
 
 body div#content.main div.content-category06.open + button.close {
