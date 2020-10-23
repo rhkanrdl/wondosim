@@ -1202,13 +1202,14 @@ body nav#menu div.depth2-outline.category05 {
 
 body nav#menu div.depth2-outline div.depth div.item {
   display: inline-block;
+  position: relative;
 }
 
 body nav#menu div.depth2-outline div.depth div.item a {
   display: block;
   position: relative;
-  line-height: 4vw;
-  font-size: 1.7vw;
+  line-height: 1.4vw;
+  font-size: 1.2vw;
   color: #fff;
   opacity: 0.6;
   text-align: center;
@@ -1216,9 +1217,22 @@ body nav#menu div.depth2-outline div.depth div.item a {
 }
 
 body nav#menu div.depth2-outline div.depth div.item a.on {
-  font-size: 1.8vw;
+  font-size: 1.4vw;
   font-weight: bold;
   opacity: 1 !important;
+}
+
+body nav#menu div.depth2-outline div.depth div.item a span {
+  display: block;
+  padding: 0.6vw 0 0;
+}
+
+body nav#menu div.depth2-outline div.depth div.item a span:only-child {
+  padding: 1.3vw 0 0;
+}
+
+body nav#menu div.depth2-outline div.depth div.item a span + span {
+  padding: 0 0 3vw;
 }
 
 body nav#menu div.depth2-outline div.depth div.item a::before {
@@ -1334,13 +1348,14 @@ body nav#menu div.depth3-outline div.depth::before {
 
 body nav#menu div.depth3-outline div.depth div.item {
   display: inline-block;
+  position: relative;
 }
 
 body nav#menu div.depth3-outline div.depth div.item a {
   display: block;
   position: relative;
-  line-height: 4vw;
-  font-size: 1.6vw;
+  line-height: 1.4vw;
+  font-size: 1.2vw;
   color: #fff;
   opacity: 0.6;
   text-align: center;
@@ -1348,9 +1363,22 @@ body nav#menu div.depth3-outline div.depth div.item a {
 }
 
 body nav#menu div.depth3-outline div.depth div.item a.on {
-  font-size: 1.7vw;
+  font-size: 1.4vw;
   font-weight: bold;
   opacity: 1 !important;
+}
+
+body nav#menu div.depth3-outline div.depth div.item a span {
+  display: block;
+  padding: 0.6vw 0 0;
+}
+
+body nav#menu div.depth3-outline div.depth div.item a span:only-child {
+  padding: 1.3vw 0 0;
+}
+
+body nav#menu div.depth3-outline div.depth div.item a span + span {
+  padding: 0 0 3vw;
 }
 
 body nav#menu div.depth3-outline div.depth div.item a::before {

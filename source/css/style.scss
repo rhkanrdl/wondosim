@@ -684,24 +684,38 @@ body {
             div.depth {
     
                 div.item {
+
                     display:inline-block;
+                    position:relative;
     
                     a {
                         display:block;
                         position:relative;
-                        line-height:4vw;
-                        font-size:1.7vw;
+                        line-height:1.4vw;
+                        font-size:1.2vw;
                         color:#fff;
                         opacity:0.6;
                         text-align:center;
                         width:20vw;
 
                         &.on {
-                            font-size:1.8vw;
+                            font-size:1.4vw;
                             font-weight:bold;
                             opacity:1 !important;
                         }
-                        
+
+                        span {
+                            display:block;
+                            padding:0.6vw 0 0;
+                        }
+                        span:only-child {
+                            padding:1.3vw 0 0
+                        }
+                        span + span {
+                            padding:0 0 3vw;
+                        }
+
+
 
                         
                         &::before {
@@ -824,22 +838,36 @@ body {
     
                 div.item {
                     display:inline-block;
+                    position:relative;
     
                     a {
                         display:block;
                         position:relative;
-                        line-height:4vw;
-                        font-size:1.6vw;
+                        line-height:1.4vw;
+                        font-size:1.2vw;
                         color:#fff;
                         opacity:0.6;
                         text-align:center;
                         width:20vw;
 
                         &.on {
-                            font-size:1.7vw;
+                            font-size:1.4vw;
                             font-weight:bold;
                             opacity:1 !important;
                         }
+
+                        span {
+                            display:block;
+                            padding:0.6vw 0 0;
+                        }
+                        span:only-child {
+                            padding:1.3vw 0 0
+                        }
+                        span + span {
+                            padding:0 0 3vw;
+                        }
+
+
                         
                         &::before {
                             content:"";
